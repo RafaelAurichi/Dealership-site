@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+    <title>Nome da Empresa</title>
+    <meta name="author" content="Rafael Aurichi">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&display=swap');
+    </style> 
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"></div><!--logo-->
+            <nav class="desktop">
+                <ul>
+                    <li><a style="color: red;" href="index.html">HOME</a></li>
+                    <li><a href="venda.html">VENDA</a></li>
+                    <li><a href="sobre.html">SOBRE NÓS</a></li>
+                    <li><a href="eventos.html">EVENTOS</a></li>
+                    <li class="last"><a href="#contato">CONTATO</a></li>
+                </ul>
+            </nav><!--desktop-->
+
+            <nav class="mobile">
+                <ul>
+                    <li><a style="color: red;" href="index.html">HOME</a></li>
+                    <li><a href="venda.html">VENDA</a></li>
+                    <li><a href="sobre.html">SOBRE NÓS</a></li>
+                    <li><a href="eventos.html">EVENTOS</a></li>
+                    <li class="last"><a href="#contato">CONTATO</a></li>
+                </ul>
+            </nav><!--mobile-->
+            <div class="clear"></div>
+        </div><!--conteiner-->
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="texto-banner">
+                <div class="box-text">
+                    <p>CONSULTORIA</p>
+                </div>
+                <div class="box-text">
+                    <p>COMPRA</p>
+                </div>
+                <div class="box-text">
+                    <p>VENDA</p>
+                </div>
+                <div class="box-text-white">
+                    <p>CONTATO@RMVEICULOSESPECIAIS.COM.BR</p>
+                </div>
+            </div><!--texto-banner-->
+        </div><!--container-->
+    </section><!--banner-->
+
+    <section class="venda">
+        <div class="container">
+            <div class="titulo">
+                <div class="line"></div>
+                <h2>VEÍCULOS EM DESTAQUE</h2>
+                <div class="line"></div>
+            </div><!--titulo-->
+
+            <div class="info-venda">
+                <div class="carro">
+                    <div class="img" style="background-image: url(imagens/carro1.png);"></div>
+                    <h2>
+                        Volkswagen Karmann-ghia
+                    </h2>
+                    <p>1.6 8v, Gasolina, 2P, Manual 1969</p>
+                    <div class="btn">
+                        <button href="" name="destalhes" value="Mais detalhes">Mais detalhes</button>
+                    </div><!--btn-->
+                </div><!--carro-->
+
+                <div class="carro">
+                    <div class="img" style="background-image: url(imagens/carro2.png);"></div>
+                    <h2>
+                        Chevrolet Opala
+                    </h2>
+                    <p>4cc, Bancos de Corvin, 2.5 1980</p>
+                    <div class="btn">
+                        <button href="" name="destalhes" value="Mais detalhes">Mais detalhes</button>
+                    </div><!--btn-->
+                </div><!--carro-->
+
+                <div class="carro">
+                    <div class="img" style="background-image: url(imagens/carro3.png);"></div>
+                    <h2>
+                        Volkswagen Gol GTS
+                    </h2>
+                    <p>Turbo forjado, xenon e alturas legalizadas, 1991</p>
+                    <div class="btn">
+                        <button href="" name="destalhes" value="Mais detalhes">Mais detalhes</button>
+                    </div><!--btn-->
+                </div><!--carro-->
+            </div><!--info-venda-->
+        </div><!--container-->
+    </section><!--venda-->
+
+    <section class="servicos-depoimentos">
+        <div class="servicos">
+            <div class="container">
+                <div class="text-servicos">
+                    <h2>Serviços</h2>
+                    <ul>
+                        <li>Compra</li>
+                        <li>Venda</li>
+                        <li>Consignação</li>
+                        <li>Consultoria de veículos</li>
+                        <li>Indicação de mecânicos e peças</li>
+                    </ul>
+                    <button name="saiba_mais" value="acao"><a href="sobre.html"> Saiba mais</a></button>
+                </div><!--text-servicos-->
+                
+            </div><!--container-->
+        </div><!--servicos-->
+
+        <div class="depoimentos">
+            <div class="container">
+                <div class="text-depoimentos">
+                    <h2>Depoimentos</h2>
+                    <p>
+                        "O Rafael foi muito atencioso, me buscou no aeroporto
+                        e garatiu toda comodidade e conforto no almoço, no transfer,
+                        na visita ao veículo e durante o test-drive"
+                    </p>
+                    <div class="footer">
+                        <img src="imagens/left-arrow.png" alt="">
+                        <img src="imagens/right-arrow.png" alt="">
+                        <p>Gustavo Teixeira - Colecionador</p>
+                    </div><!--footer-->
+                </div><!--text-depoimentos-->
+            </div><!--container-->
+        </div><!--depoimentos-->
+    </section><!--servicos-depoimentos-->
+
+    <section class="form" id="contato">
+        <div class="container">
+            <div class="titulo">
+                <div class="line"></div>
+                <h2>CONTATO</h2>
+                <div class="line"></div>
+            </div><!--titulo-->
+            <form>
+                <div class="nome">
+                    <input type="text" value(hidden)="Nome" name="nome" placeholder="nome">
+                </div><!--nome-->
+
+                <div class="email-tel">
+                    <div class="email">
+                        <input type="text" value(hidden)="Email" name="email" placeholder="email">
+                    </div><!--email-->
+                    <div class="telefone">
+                        <input type="text" value(hidden)="Telefone" name="telefone" placeholder="telefone">
+                    </div><!--telefone-->
+                </div><!--email-tel-->
+
+                <div class="mesage">
+                    <textarea name="mesagem" placeholder="mensagem"></textarea>
+                </div><!--mesage-->
+                <div class="botao">
+                    <input type="submit" name="acao" value="Enviar">
+                </div><!--botao-->
+            </form>
+        </div><!--container-->
+     </section><!--form-->
+</body>
+
+<footer>
+    <div class="container">
+        <nav class="footer">
+            <ul>
+                <li><a style="color: red;" href="index.html">HOME</a></li>
+                <li><a href="venda.html">VENDA</a></li>
+                <li><a href="sobre.html">SOBRE NÓS</a></li>
+                <li><a href="eventos.html">EVENTOS</a></li>
+                <li class="last"><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav><!--footer-->
+        <p>
+            Todos os direitos reservados à <stong>RM Veículos Especiais</stong>
+        </p>
+    </div><!--container-->
+</footer>
+</html>
